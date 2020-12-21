@@ -166,222 +166,195 @@
 
 </header>
 
-    
+    <style type="text/css">
+    /* don't remove. */
+    .about-cover {
+        height: 75vh;
+    }
+</style>
 
+<div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                Hi, welcome my homepage
+                
+            </div>
 
-
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
-    <div class="container" style="right: 0px;left: 0px;">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="brand">
-                    <h1 class="description center-align post-title">About</h1>
-                </div>
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['Stay empathetic, stay challenging',''],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
             </div>
         </div>
     </div>
 </div>
 
 
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+</script>
 
 
-<main class="container content">
+    </div>
+</div>
 
-    
-    <!-- 文章内容详情 -->
-<div id="artDetail">
-    <div class="card">
-        <div class="card-content article-info">
-            <div class="row tag-cate">
-                <div class="col s7">
-                    
-                          <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
-                          </div>
-                    
-                </div>
-                <div class="col s5 right-align">
-                    
-                </div>
-            </div>
+<main class="content">
 
-            <div class="post-info">
-                
-
-                
-
-                
-
-                
-
-                
-            </div>
-        </div>
-        <hr class="clearfix">
-
-        
-
-        
-
-        <div class="card-content article-card-content">
-            <div id="articleContent">
-                <p>I am an entrepreneur and open a start-up <a href="https://www.marsboxformen.com/" target="_blank">MarsBox</a>, the first e-commerce and sex-education platform for sexual minorities in China.</p>
-<p>I am also interested in media art, trying to figure out ways to transfer information while giving form to the experience and understanding of the world I want to share. </p>
-
-                
-            </div>
-            <hr/>
-
-            
+    <div id="aboutme" class="container about-container">
+        <div class="card">
+            <div class="card-content">
+                <div class="row">
+                    <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
+                        
+<div class="statis">
+    <span class="count"><a href="/">3</a></span>
+    <span class="name">Posts</span>
+</div>
 
 
 
-            <div class="tag_share" style="display: block;">
-                <div class="post-meta__tag-list" style="display: inline-block;">
-                    
-                        <div class="article-tag">
-                            <span class="chip bg-color">No tag</span>
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">4</a></span>
+    <span class="name">Tags</span>
+</div>
+
+
+                    </div>
+                    <div class="col s12 m12 l4">
+                        <div class="profile center-align">
+                            <div class="avatar">
+                                <img src="/medias/avatar.jpg" alt="Ruoaln Yang"
+                                     class="circle responsive-img avatar-img">
+                            </div>
+                            <div class="author">
+                                <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
+                                    
+<div class="statis">
+    <span class="count"><a href="/">3</a></span>
+    <span class="name">Posts</span>
+</div>
+
+
+
+
+
+<div class="statis">
+    <span class="count"><a href="/tags">4</a></span>
+    <span class="name">Tags</span>
+</div>
+
+
+                                </div>
+                                <div class="title">Ruoaln Yang</div>
+                                <div class="career">Entrepreneur / Media Artist / Feminist</div>
+                                <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
+                                    
+    <a href="https://github.com/shangri-lan" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:Ruolan.yang@hotmail.com" class="tooltipped" target="_blank" data-tooltip="Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="https://www.docdroid.net/OWiblWj/resume-ruolan-yang-pdf" class="tooltipped" target="_blank" data-tooltip="Résumé" data-position="top" data-delay="50">
+        <i class="far fa-file"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                </div>
+                            </div>
                         </div>
-                    
-                </div>
-                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
-                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
-<div id="article-share">
-
-    
-
-    
-
-</div>
-
-                </div>
-            </div>
-            
-        </div>
-    </div>
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-<article id="prenext-posts" class="prev-next articles">
-    <div class="row article-row">
-        
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;Current
-            </div>
-            <div class="card">
-                <a href="/About/index.html">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="About">
-                        
-                        <span class="card-title">About</span>
                     </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
+                    <div class="col l4 hide-on-med-and-down" data-aos="zoom-in-left">
+                        <div class="social-link">
                             
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-14
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Ruoaln Yang
-                            
-                        </span>
+    <a href="https://github.com/shangri-lan" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:Ruolan.yang@hotmail.com" class="tooltipped" target="_blank" data-tooltip="Email" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="https://www.docdroid.net/OWiblWj/resume-ruolan-yang-pdf" class="tooltipped" target="_blank" data-tooltip="Résumé" data-position="top" data-delay="50">
+        <i class="far fa-file"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
                     </div>
                 </div>
+
+                <div class="introduction justify-align" data-aos="fade-up">
+                <script src="https://www.marsboxformen.com/"></script>I’m the founder of <a target="_blank" rel="noopener" href="https://www.marsboxformen.com/">MarsBox</a>, the first e-commerce and sex-education platform for sexual minorities in China.<p><br><p>Before beginning the journey to run the business, I got my bachelor of arts degree from University of Nottingham, Ningbo, China in English Studies with Applied Linguistic.<p><br><p>I’m also interested in media art, especially in interactive installations and Immersive Experience. I figure out ways to give form to the experience and understanding of the world as I see it. It’s my mission to communicate the minorities, sexual and racial, with the rest of the world with my artistic insights. <p>
+                </div>
+                
 
                 
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/About/index.html">
-                    <div class="card-image">
-                        
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="About">
-                        
-                        <span class="card-title">About</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-14
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Ruoaln Yang
-                            
-                        </span>
-                    </div>
-                </div>
 
                 
+
+                
+
             </div>
         </div>
-        
     </div>
-</article>
-
-</div>
-
-
-
-<!-- 代码块功能依赖 -->
-<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
-
-<!-- 代码语言 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
-
-
-<!-- 代码块复制 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
-
-
-<!-- 代码块收缩 -->
-
-<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
-
-
+    <script charset="UFF-8" type="text/template" id="tempkate">
     
-
+    </script>
 </main>
-
-
 
 
     <footer class="page-footer bg-color">
@@ -408,14 +381,20 @@
             
         </div>
         <div class="col s12 m4 l4 social-link ">
-    <a href="https://github.com/shangri-lan" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/shangri-lan" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:Ruolan.yang@hotmail.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:Ruolan.yang@hotmail.com" class="tooltipped" target="_blank" data-tooltip="Email" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="https://www.docdroid.net/OWiblWj/resume-ruolan-yang-pdf" class="tooltipped" target="_blank" data-tooltip="Résumé" data-position="top" data-delay="50">
+        <i class="far fa-file"></i>
     </a>
 
 

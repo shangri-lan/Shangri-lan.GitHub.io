@@ -79,7 +79,7 @@ $(function () {
             //$(this).addClass("img-shadow img-margin");
             // 图片添加字幕
             let alt = $(this).attr('alt');
-            //let title = $(this).attr('title');
+            let title = $(this).attr('title');
             let captionText = "";
             // 如果alt为空，title来替
 //            if (alt === undefined || alt === "") {
